@@ -1,0 +1,127 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "skill:ultimate_emerald_shovel",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.shovel",
+				"is_hidden_in_commands": false
+			}
+		},
+		"components": {
+			"minecraft:icon": "skill_ultimate_emerald_shovel",
+			"minecraft:max_stack_size": 1,
+			"minecraft:glint": false,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 11,
+			"minecraft:enchantable": {
+				"value": 15,
+				"slot": "shovel"
+			},
+			"minecraft:durability": {
+				"max_durability": 9999,
+				"damage_chance": {
+                    "min": 60,
+                    "max": 100
+                }
+			},
+			"minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "skill:ultimate_emerald_shovel"
+                        ],
+                        "repair_amount": "query.max_durability / 2"
+                    },
+                    {
+                        "items": [
+                            "minecraft:emerald"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability * 0.15"
+                    }
+                ]
+            },
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+                        "block": {
+                            "tags": "q.any_tag('dirt', 'sand', 'gravel', 'grass', 'snow')"
+                        },
+                        "speed": 40
+                    },
+                    {
+                        "block": "minecraft:clay",
+                        "speed": 40
+                    },
+                    {
+                        "block": "minecraft:farmland",
+                        "speed": 40
+                    },
+                    {
+                        "block": "minecraft:mud",
+                        "speed": 40
+                    },
+                    {
+                        "block": "minecraft:grass",
+                        "speed": 40
+                    },
+                    {
+                        "block": "minecraft:grass_path",
+                        "speed": 40
+                    },
+                    {
+                        "block": "minecraft:gravel",
+                        "speed": 40
+                    },
+                    {
+                        "block": "minecraft:mycelium",
+                        "speed": 40
+                    },
+                    {
+                        "block": "minecraft:podzol",
+                        "speed": 40
+                    },
+                    {
+                        "block": "minecraft:dirt",
+                        "speed": 40
+                    },
+                    {
+                        "block": "minecraft:sand",
+                        "speed": 40
+                    },
+                    {
+                        "block": "minecraft:soul_sand",
+                        "speed": 40
+                    },
+                    {
+                        "block": "minecraft:soul_soil",
+                        "speed": 40
+                    },
+                    {
+                        "block": "minecraft:concrete_powder",
+                        "speed": 40
+                    },
+                    {
+                        "block": "minecraft:snow",
+                        "speed": 40
+                    },
+                    {
+                        "block": "minecraft:snow_layer",
+                        "speed": 40
+                    }
+				]
+			},
+			"minecraft:display_name": {
+				"value": "§aUltimate Emerald Shovel"
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_shovel"
+				]
+			},
+			"minecraft:allow_off_hand": false
+		}
+	}
+}

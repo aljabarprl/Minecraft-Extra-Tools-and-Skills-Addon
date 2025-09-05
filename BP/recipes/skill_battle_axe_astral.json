@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "battle_axe_astral_a5d4g3h1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "WXW",
+      "W#W",
+      " # "
+    ],
+    "key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:nether_star"
+			},
+			"W": {
+				"item": "minecraft:echo_shard"
+			}
+		},
+    "result": {
+      "item": "skill:battle_axe_astral",
+      "count": 1
+    }
+  }
+}

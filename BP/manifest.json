@@ -1,0 +1,73 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Behavior Pack for Extra Tools and Skills by Pasa",
+        "name": "§bSkills BP",
+        "uuid": "a4fe7715-d13e-4e9c-b1cb-ce1131ec162d",
+        "version": [
+			6,
+			5,
+			1
+		],
+		"min_engine_version": [
+			1,
+			21,
+			0
+		]
+    },
+    "modules": [
+        {
+            "description": "Behavior Pack for Extra Tools and Skills by Pasa",
+            "type": "data",
+            "uuid": "9e140bf9-14b5-4fe9-82ff-017a74677b24",
+            "version": [
+				6,
+				5,
+				1
+			],
+            "name": "Skill Data Module"
+        },
+        {
+            "type": "script",
+            "uuid": "3afaf142-dafd-40c2-ba9d-0f129a0d1a46",
+            "version": [
+				6,
+				5,
+				1
+			],
+            "entry": "scripts/main.js",
+            "language": "javascript",
+            "name": "Skill Script Module"
+        }
+    ],
+    "dependencies": [
+        {
+			"version": [
+				6,
+				5,
+				1
+			],
+			"uuid": "09819be9-1d84-45a8-9687-6c64b80a6ae4"
+		},
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.14.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.1.0"
+        }
+    ],
+    "metadata": {
+        "authors": [
+			"PasaStudios"
+		],
+        "generated_with": {
+			"bridge": [
+				"1.8.3",
+				"1.8.4",
+				"1.8.5"
+			]
+		}
+    }
+}

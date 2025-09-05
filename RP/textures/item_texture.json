@@ -1,0 +1,279 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "skill_aerofero": {
+      "textures": "textures/items/pamobile/skill_aerofero"
+    },
+    "skill_flamverto": {
+      "textures": "textures/items/pamobile/skill_flamverto"
+    },
+    "skill_life_drain": {
+      "textures": "textures/items/pamobile/skill_life_drain"
+    },
+    "skill_velocium": {
+      "textures": "textures/items/pamobile/skill_velocium"
+    },
+    "skill_limitless": {
+      "textures": "textures/items/pamobile/skill_limitless"
+    },
+    "skill_luminis": {
+      "textures": "textures/items/pamobile/skill_luminis"
+    },
+    "skill_tenebris": {
+      "textures": "textures/items/pamobile/skill_tenebris"
+    },
+    "skill_aquarius": {
+      "textures": "textures/items/pamobile/skill_aquarius"
+    },
+    "skill_sanatio": {
+      "textures": "textures/items/pamobile/skill_sanatio"
+    },
+    "skill_angelic": {
+      "textures": "textures/items/pamobile/skill_angelic"
+    },
+    "skill_lapis_sword": {
+      "textures": "textures/items/pamobile/skill_lapis_sword"
+    },
+    "skill_lapis_axe": {
+      "textures": "textures/items/pamobile/skill_lapis_axe"
+    },
+    "skill_lapis_pickaxe": {
+      "textures": "textures/items/pamobile/skill_lapis_pickaxe"
+    },
+    "skill_lapis_shovel": {
+      "textures": "textures/items/pamobile/skill_lapis_shovel"
+    },
+    "skill_lapis_hoe": {
+      "textures": "textures/items/pamobile/skill_lapis_hoe"
+    },
+    "skill_amethyst_sword": {
+      "textures": "textures/items/pamobile/skill_amethyst_sword"
+    },
+    "skill_amethyst_axe": {
+      "textures": "textures/items/pamobile/skill_amethyst_axe"
+    },
+    "skill_amethyst_pickaxe": {
+      "textures": "textures/items/pamobile/skill_amethyst_pickaxe"
+    },
+    "skill_amethyst_shovel": {
+      "textures": "textures/items/pamobile/skill_amethyst_shovel"
+    },
+    "skill_amethyst_hoe": {
+      "textures": "textures/items/pamobile/skill_amethyst_hoe"
+    },
+    "skill_emerald_sword": {
+      "textures": "textures/items/pamobile/skill_emerald_sword"
+    },
+    "skill_emerald_axe": {
+      "textures": "textures/items/pamobile/skill_emerald_axe"
+    },
+    "skill_emerald_pickaxe": {
+      "textures": "textures/items/pamobile/skill_emerald_pickaxe"
+    },
+    "skill_emerald_shovel": {
+      "textures": "textures/items/pamobile/skill_emerald_shovel"
+    },
+    "skill_emerald_hoe": {
+      "textures": "textures/items/pamobile/skill_emerald_hoe"
+    },
+    "skill_obsidian_sword": {
+      "textures": "textures/items/pamobile/skill_obsidian_sword"
+    },
+    "skill_obsidian_axe": {
+      "textures": "textures/items/pamobile/skill_obsidian_axe"
+    },
+    "skill_obsidian_pickaxe": {
+      "textures": "textures/items/pamobile/skill_obsidian_pickaxe"
+    },
+    "skill_obsidian_shovel": {
+      "textures": "textures/items/pamobile/skill_obsidian_shovel"
+    },
+    "skill_obsidian_hoe": {
+      "textures": "textures/items/pamobile/skill_obsidian_hoe"
+    },
+    "skill_dark_sword": {
+      "textures": "textures/items/pamobile/skill_dark_sword"
+    },
+    "skill_glowing_sword": {
+      "textures": "textures/items/pamobile/skill_glowing_sword"
+    },
+    "skill_flaming_sword": {
+      "textures": "textures/items/pamobile/skill_flaming_sword"
+    },
+    "skill_azrael_blade": {
+      "textures": "textures/items/pamobile/skill_azrael_blade"
+    },
+    "skill_katana": {
+      "textures": "textures/items/pamobile/skill_katana"
+    },
+    "skill_sandalphon_crown": {
+      "textures": "textures/items/pamobile/skill_sandalphon_crown"
+    },
+    "skill_gabriel_horn": {
+      "textures": "textures/items/pamobile/skill_gabriel_horn"
+    },
+    "skill_ultimate_emerald": {
+      "textures": "textures/items/pamobile/skill_ultimate_emerald"
+    },
+    "skill_ultimate_emerald_sword": {
+      "textures": "textures/items/pamobile/skill_ultimate_emerald_sword"
+    },
+    "skill_ultimate_emerald_axe": {
+      "textures": "textures/items/pamobile/skill_ultimate_emerald_axe"
+    },
+    "skill_ultimate_emerald_pickaxe": {
+      "textures": "textures/items/pamobile/skill_ultimate_emerald_pickaxe"
+    },
+    "skill_ultimate_emerald_shovel": {
+      "textures": "textures/items/pamobile/skill_ultimate_emerald_shovel"
+    },
+    "skill_ultimate_emerald_hoe": {
+      "textures": "textures/items/pamobile/skill_ultimate_emerald_hoe"
+    },
+    "skill_ultimate_diamond": {
+      "textures": "textures/items/pamobile/skill_ultimate_diamond"
+    },
+    "skill_ultimate_diamond_sword": {
+      "textures": "textures/items/pamobile/skill_ultimate_diamond_sword"
+    },
+    "skill_ultimate_diamond_axe": {
+      "textures": "textures/items/pamobile/skill_ultimate_diamond_axe"
+    },
+    "skill_ultimate_diamond_pickaxe": {
+      "textures": "textures/items/pamobile/skill_ultimate_diamond_pickaxe"
+    },
+    "skill_ultimate_diamond_shovel": {
+      "textures": "textures/items/pamobile/skill_ultimate_diamond_shovel"
+    },
+    "skill_ultimate_diamond_hoe": {
+      "textures": "textures/items/pamobile/skill_ultimate_diamond_hoe"
+    },
+    "skill_battle_axe_iron": {
+      "textures": "textures/items/pamobile/skill_battle_axe_iron"
+    },
+    "skill_battle_axe_astral": {
+      "textures": "textures/items/pamobile/skill_battle_axe_astral"
+    },
+    "skill_battle_axe_fire": {
+      "textures": "textures/items/pamobile/skill_battle_axe_fire"
+    },
+    "skill_battle_axe_blast": {
+      "textures": "textures/items/pamobile/skill_battle_axe_blast"
+    },
+    "skill_battle_axe_diamond": {
+      "textures": "textures/items/pamobile/skill_battle_axe_diamond"
+    },
+    "skill_battle_hamma": {
+      "textures": "textures/items/pamobile/skill_battle_hamma"
+    },
+    "skill_battle_hamma_fire": {
+      "textures": "textures/items/pamobile/skill_battle_hamma_fire"
+    },
+    "skill_battle_axe_emerald": {
+      "textures": "textures/items/pamobile/skill_battle_axe_emerald"
+    },
+    "skill_battle_axe_heaven": {
+      "textures": "textures/items/pamobile/skill_battle_axe_heaven"
+    },
+    "skill_battle_axe_hydro": {
+      "textures": "textures/items/pamobile/skill_battle_axe_hydro"
+    },
+    "skill_battle_axe_limitless": {
+      "textures": "textures/items/pamobile/skill_battle_axe_limitless"
+    },
+    "skill_ruby": {
+      "textures": "textures/items/pamobile/skill_ruby"
+    },
+    "skill_ruby_sword": {
+      "textures": "textures/items/pamobile/skill_ruby_sword"
+    },
+    "skill_ruby_axe": {
+      "textures": "textures/items/pamobile/skill_ruby_axe"
+    },
+    "skill_ruby_pickaxe": {
+      "textures": "textures/items/pamobile/skill_ruby_pickaxe"
+    },
+    "skill_ruby_shovel": {
+      "textures": "textures/items/pamobile/skill_ruby_shovel"
+    },
+    "skill_ruby_hoe": {
+      "textures": "textures/items/pamobile/skill_ruby_hoe"
+    },
+    "skill_iron_hammer": {
+      "textures": "textures/items/pamobile/skill_iron_hammer"
+    },
+    "skill_gold_hammer": {
+      "textures": "textures/items/pamobile/skill_gold_hammer"
+    },
+    "skill_diamond_hammer": {
+      "textures": "textures/items/pamobile/skill_diamond_hammer"
+    },
+    "skill_lapis_hammer": {
+      "textures": "textures/items/pamobile/skill_lapis_hammer"
+    },
+    "skill_amethyst_hammer": {
+      "textures": "textures/items/pamobile/skill_amethyst_hammer"
+    },
+    "skill_netherite_hammer": {
+      "textures": "textures/items/pamobile/skill_netherite_hammer"
+    },
+    "skill_emerald_hammer": {
+      "textures": "textures/items/pamobile/skill_emerald_hammer"
+    },
+    "skill_ruby_hammer": {
+      "textures": "textures/items/pamobile/skill_ruby_hammer"
+    },
+    "skill_sakura_sword": {
+      "textures": "textures/items/pamobile/skill_sakura_sword"
+    },
+    "skill_thunder_sword": {
+      "textures": "textures/items/pamobile/skill_thunder_sword"
+    },
+    "skill_card_red": {
+      "textures": "textures/items/pamobile/skill_card_red"
+    },
+    "skill_card_green": {
+      "textures": "textures/items/pamobile/skill_card_green"
+    },
+    "skill_card_ktp": {
+      "textures": "textures/items/pamobile/skill_card_ktp"
+    },
+    "skill_card_fbi": {
+      "textures": "textures/items/pamobile/skill_card_fbi"
+    },
+    "skill_card_badge": {
+      "textures": "textures/items/pamobile/skill_card_badge"
+    },
+    "skill_police_badge": {
+      "textures": "textures/items/pamobile/skill_police_badge"
+    },
+    "skill_detective_badge": {
+      "textures": "textures/items/pamobile/skill_detective_badge"
+    },
+    "skill_military_badge": {
+      "textures": "textures/items/pamobile/skill_military_badge"
+    },
+    "skill_card_weapon": {
+      "textures": "textures/items/pamobile/skill_card_weapon"
+    },
+    "skill_card_lawyer": {
+      "textures": "textures/items/pamobile/skill_card_lawyer"
+    },
+    "skill_card_drive": {
+      "textures": "textures/items/pamobile/skill_card_drive"
+    },
+    "skill_card_judge": {
+      "textures": "textures/items/pamobile/skill_card_judge"
+    },
+    "skill_card_attorney": {
+      "textures": "textures/items/pamobile/skill_card_attorney"
+    },
+    "skill_card_pilot": {
+      "textures": "textures/items/pamobile/skill_card_pilot"
+    },
+    "skill_acc_permit": {
+      "textures": "textures/items/pamobile/skill_acc_permit"
+    }
+  }
+}

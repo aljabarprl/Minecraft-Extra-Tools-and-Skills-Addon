@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "battle_axe_blast_z3a8b5c7"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "WXW",
+      "W#W",
+      " # "
+    ],
+    "key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:nether_star"
+			},
+			"W": {
+				"item": "minecraft:netherite_ingot"
+			}
+		},
+    "result": {
+      "item": "skill:battle_axe_blast",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lapis_axe_1a2b3c4d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AB",
+      " B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:lapis_lazuli",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "skill:lapis_axe",
+      "count": 1
+    }
+  }
+}

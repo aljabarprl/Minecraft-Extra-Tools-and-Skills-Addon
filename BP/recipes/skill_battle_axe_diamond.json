@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "battle_axe_diamond_j9k2l8m3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "WXW",
+      "W#W",
+      " # "
+    ],
+    "key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:nether_star"
+			},
+			"W": {
+				"item": "minecraft:diamond"
+			}
+		},
+    "result": {
+      "item": "skill:battle_axe_diamond",
+      "count": 1
+    }
+  }
+}

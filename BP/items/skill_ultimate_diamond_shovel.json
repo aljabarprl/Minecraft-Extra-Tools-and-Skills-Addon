@@ -1,0 +1,127 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "skill:ultimate_diamond_shovel",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.shovel",
+				"is_hidden_in_commands": false
+			}
+		},
+		"components": {
+			"minecraft:icon": "skill_ultimate_diamond_shovel",
+			"minecraft:max_stack_size": 1,
+			"minecraft:glint": false,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 9,
+			"minecraft:enchantable": {
+				"value": 15,
+				"slot": "shovel"
+			},
+			"minecraft:durability": {
+				"max_durability": 9999,
+				"damage_chance": {
+                    "min": 60,
+                    "max": 100
+                }
+			},
+			"minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "skill:ultimate_diamond_shovel"
+                        ],
+                        "repair_amount": "query.max_durability / 2"
+                    },
+                    {
+                        "items": [
+                            "minecraft:diamond"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability * 0.15"
+                    }
+                ]
+            },
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+                        "block": {
+                            "tags": "q.any_tag('dirt', 'sand', 'gravel', 'grass', 'snow')"
+                        },
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:clay",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:farmland",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:mud",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:grass",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:grass_path",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:gravel",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:mycelium",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:podzol",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:dirt",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:sand",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:soul_sand",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:soul_soil",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:concrete_powder",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:snow",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:snow_layer",
+                        "speed": 35
+                    }
+				]
+			},
+			"minecraft:display_name": {
+				"value": "§bUltimate Diamond Shovel"
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_shovel"
+				]
+			},
+			"minecraft:allow_off_hand": false
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ruby_hoe_q9r0s1t2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      " B",
+      " B"
+    ],
+    "key": {
+      "A": {
+        "item": "skill:ruby",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "skill:ruby_hoe",
+      "count": 1
+    }
+  }
+}

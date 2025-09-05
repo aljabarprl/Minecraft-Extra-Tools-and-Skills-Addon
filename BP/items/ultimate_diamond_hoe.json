@@ -1,0 +1,121 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "skill:ultimate_diamond_hoe",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.hoe",
+				"is_hidden_in_commands": false
+			}
+		},
+		"components": {
+			"minecraft:icon": "skill_ultimate_diamond_hoe",
+			"minecraft:max_stack_size": 1,
+			"minecraft:glint": false,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 10,
+			"minecraft:enchantable": {
+				"value": 15,
+				"slot": "hoe"
+			},
+			"minecraft:durability": {
+				"max_durability": 9999,
+				"damage_chance": {
+                    "min": 60,
+                    "max": 100
+                }
+			},
+			"minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "skill:ultimate_diamond_hoe"
+                        ],
+                        "repair_amount": "query.max_durability / 2"
+                    },
+                    {
+                        "items": [
+                            "minecraft:diamond"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability * 0.15"
+                    }
+                ]
+            },
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+                        "block": "minecraft:nether_wart_block",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:hay_block",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:target",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:shroomlight",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:leaves",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:leaves2",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:warped_wart_block",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:sculk_catalyst",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:sculk_shrieker",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:sculk_sensor",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:dried_kelp_block",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:sculk_vein",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:moss_block",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:sculk",
+                        "speed": 35
+                    },
+                    {
+                        "block": "minecraft:sponge",
+                        "speed": 35
+                    }
+				]
+			},
+			"minecraft:display_name": {
+				"value": "§bUltimate Diamond Hoe"
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_hoe"
+				]
+			},
+			"minecraft:allow_off_hand": false
+		}
+	}
+}

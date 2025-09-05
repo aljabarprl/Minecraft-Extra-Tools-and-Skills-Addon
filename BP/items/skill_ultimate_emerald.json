@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "skill:ultimate_emerald",
+            "menu_category": {
+                "group": "",
+                "category": "items",
+                "is_hidden_in_commands": false
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "skill_ultimate_emerald"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§aUltimate Emerald"
+            }
+        }
+    }
+}

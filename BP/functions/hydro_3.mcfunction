@@ -1,0 +1,1 @@
+effect @e[hasitem=[{item=skill:battle_axe_hydro,location=slot.weapon.mainhand}]] water_breathing 1 4 true

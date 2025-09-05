@@ -1,0 +1,77 @@
+{
+	"format_version": "1.20.20",
+	"sound_definitions": {
+		"skill:Badrole.spawn": {
+			"__use_legacy_max_distance" : "true",
+            "category" : "player",
+            "max_distance" : 999999,
+            "min_distance" : 9000,
+            "sounds" : [
+				{
+				"load_on_low_memory" : true,
+				"name" : "sounds/skill/Badrole_spawn"
+				}
+            ]
+		},
+		"skill:Agent.spawn": {
+			"__use_legacy_max_distance" : "true",
+			"category" : "player",
+			"max_distance" : 999999,
+			"min_distance" : 9000,
+			"sounds" : [
+				{
+				"load_on_low_memory" : true,
+				"name" : "sounds/skill/Agent_spawn"
+				}
+            ]
+		},
+		"skill:Ramboo.spawn": {
+			"__use_legacy_max_distance" : "true",
+            "category" : "player",
+            "max_distance" : 999999,
+            "min_distance" : 9000,
+            "sounds" : [
+				{
+				"load_on_low_memory" : true,
+				"name" : "sounds/skill/Ramboo_spawn"
+				}
+            ]
+		},
+		"skill:Raid.trumpet": {
+			"__use_legacy_max_distance" : "true",
+            "category" : "player",
+            "max_distance" : 999999,
+            "min_distance" : 9000,
+            "sounds" : [
+				{
+				"load_on_low_memory" : true,
+				"name" : "sounds/skill/Raid_trumpet"
+				}
+            ]
+		},
+		"skill:Trumpet.assemble": {
+			"__use_legacy_max_distance" : "true",
+            "category" : "player",
+            "max_distance" : 999999,
+            "min_distance" : 9000,
+            "sounds" : [
+				{
+				"load_on_low_memory" : true,
+				"name" : "sounds/skill/Trumpet_assemble"
+				}
+            ]
+		},
+		"skill:Trumpet.gmwin": {
+			"__use_legacy_max_distance" : "true",
+            "category" : "player",
+            "max_distance" : 999999,
+            "min_distance" : 9000,
+            "sounds" : [
+				{
+				"load_on_low_memory" : true,
+				"name" : "sounds/skill/Trumpet_gmwin"
+				}
+            ]
+		}
+	}
+}

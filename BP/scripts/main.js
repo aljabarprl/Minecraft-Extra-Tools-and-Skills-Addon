@@ -1,0 +1,15 @@
+import "./skill_battle_axe";
+import "./skill_battle_axe_astral";
+import "./du_hammer";
+import "./skill_battle_hamma";
+import "./skill_battle_axe_fire";
+import "./skill_battle_axe_blast";
+import "./skill_battle_axe_diamond";
+import "./skill_battle_hamma_fire";
+import "./dur";
+import "./skill_battle_axe_emerald";
+import "./skill_battle_axe_heaven";
+import "./skill_battle_axe_hydro";
+import "./skill_battle_axe_limitless";
+import "./skill_dark_sword";
+import "./skill_thunder_sword";

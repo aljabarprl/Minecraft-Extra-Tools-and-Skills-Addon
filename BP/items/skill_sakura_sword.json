@@ -1,0 +1,72 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "skill:sakura_sword",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword",
+				"is_hidden_in_commands": false
+			}
+		},
+		"components": {
+			"minecraft:icon": "skill_sakura_sword",
+			"minecraft:max_stack_size": 1,
+			"minecraft:glint": false,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 10,
+			"minecraft:enchantable": {
+				"value": 15,
+				"slot": "sword"
+			},
+			"minecraft:durability": {
+				"max_durability": 251,
+				"damage_chance": {
+                    "min": 60,
+                    "max": 100
+                }
+			},
+			"minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "skill:sakura_sword"
+                        ],
+                        "repair_amount": "query.max_durability / 2"
+                    },
+                    {
+                        "items": [
+                            "minecraft:nether_star"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability * 0.8"
+                    }
+                ]
+            },
+			"minecraft:digger": {
+                "use_efficiency": false,
+                "destroy_speeds": [
+                    {
+                        "block": "minecraft:web",
+                        "speed": 15
+                    },
+                    {
+                        "block": "minecraft:bamboo",
+                        "speed": 15
+                    }
+                ]
+            },
+			"minecraft:display_name": {
+				"value": "§dSakura's Sword"
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_sword"
+				]
+			},
+			"minecraft:can_destroy_in_creative": {
+				"value": false
+			},
+			"minecraft:allow_off_hand": false
+		}
+	}
+}

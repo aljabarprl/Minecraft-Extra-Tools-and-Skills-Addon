@@ -1,0 +1,2 @@
+execute as @a[hasitem=[{item=skill:thunder_sword, location=slot.weapon.mainhand}]] run tag @s add userpetir
+execute as @a[tag=userpetir] unless entity @s[hasitem=[{item=skill:thunder_sword, location=slot.weapon.mainhand}]] run tag @s remove userpetir

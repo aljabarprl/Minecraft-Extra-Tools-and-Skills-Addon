@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "battle_axe_fire_alt_q0r8s4t3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "WXW",
+      "W#W",
+      " # "
+    ],
+    "key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:nether_star"
+			},
+			"W": {
+				"item": "skill:flamverto"
+			}
+		},
+    "result": {
+      "item": "skill:battle_axe_fire",
+      "count": 1
+    }
+  }
+}

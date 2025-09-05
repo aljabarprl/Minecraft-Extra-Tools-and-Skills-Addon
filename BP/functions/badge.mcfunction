@@ -1,0 +1,1 @@
+playanimation @s animation.vindicator.attack x 999

@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "battle_axe_hydro_alt_h4i3j2k1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "WXW",
+      "W#W",
+      " # "
+    ],
+    "key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:nether_star"
+			},
+			"W": {
+				"item": "skill:aquarius"
+			}
+		},
+    "result": {
+      "item": "skill:battle_axe_hydro",
+      "count": 1
+    }
+  }
+}

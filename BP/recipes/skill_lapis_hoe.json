@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lapis_hoe_e7f8g9h0"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      " B",
+      " B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:lapis_lazuli",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "skill:lapis_hoe",
+      "count": 1
+    }
+  }
+}

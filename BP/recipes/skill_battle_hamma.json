@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "battle_hamma_y9z6a0b4"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "WXW",
+      "WXW",
+      " # "
+    ],
+    "key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:iron_block"
+			},
+			"W": {
+				"item": "minecraft:iron_block"
+			}
+		},
+    "result": {
+      "item": "skill:battle_hamma",
+      "count": 1
+    }
+  }
+}

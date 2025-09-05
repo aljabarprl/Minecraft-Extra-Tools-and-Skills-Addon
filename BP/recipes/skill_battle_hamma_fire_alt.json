@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "battle_hamma_fire_alt_g8h1i6j0"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " X ",
+      " # "
+    ],
+    "key": {
+			"#": {
+				"item": "skill:battle_hamma_fire"
+			},
+			"X": {
+				"item": "skill:flamverto"
+			}
+		},
+    "result": {
+      "item": "skill:battle_hamma_fire",
+      "count": 1
+    }
+  }
+}
