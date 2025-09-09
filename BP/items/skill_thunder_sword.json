@@ -58,6 +58,10 @@
 			"minecraft:display_name": {
 				"value": "Lightning Sword"
 			},
+			"minecraft:cooldown": {
+				"category": "thunder_sword_normal",
+				"duration": 2
+			},
 			"minecraft:tags": {
 				"tags": [
 					"minecraft:is_sword"
@@ -66,7 +70,8 @@
 			"minecraft:can_destroy_in_creative": {
 				"value": false
 			},
-			"minecraft:allow_off_hand": false
+			"minecraft:allow_off_hand": false,
+			"minecraft:custom_components": ["skill:thunder_sword"]
 		}
 	}
 }
