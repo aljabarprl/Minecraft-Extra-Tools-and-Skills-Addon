@@ -66,6 +66,11 @@
 					"minecraft:is_sword"
 				]
 			},
+			"minecraft:cooldown": {
+				"category": "dark_sword_normal",
+				"duration": 5
+			},
+      		"minecraft:custom_components": ["skill:dark_sword"],
 			"minecraft:allow_off_hand": false,
 			"minecraft:entity_hit": {
 				"event": "apply_slow",
