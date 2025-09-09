@@ -3,8 +3,8 @@
     "header": 
     {
         "description": "Resource Pack for Extra Tools and Skills by Pasa",
-        "name": "§bSkills RP",
-        "uuid": "09819be9-1d84-45a8-9687-6c64b80a6ae4",
+        "name": "§bExtra Tools & Skills",
+        "uuid": "c3126acc-dc9a-44f6-83ee-0d8853b71af0",
         "version": [
 			6,
 			5,
@@ -19,6 +19,16 @@
     "metadata": {
 		"authors": [ "PasaStudios" ]
 	},
+    "dependencies": [
+        {
+			"version": [
+				6,
+				5,
+				1
+			],
+			"uuid": "b451a2d8-712c-49c5-a301-ab4d84d25969"
+		}
+    ],
     "modules": 
     [
         {
