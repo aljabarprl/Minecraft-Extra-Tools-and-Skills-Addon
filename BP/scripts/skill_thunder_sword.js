@@ -1,6 +1,6 @@
 import { world, system, Player } from "@minecraft/server";
 
-// Pastikan ID item sudah benar
+// ID item untuk set data cooldown dan function
 const ITEM_ID = "skill:thunder_sword";
 
 world.beforeEvents.worldInitialize.subscribe(ev => {
