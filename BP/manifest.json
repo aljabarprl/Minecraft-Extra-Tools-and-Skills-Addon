@@ -2,8 +2,8 @@
     "format_version": 2,
     "header": {
         "description": "Behavior Pack for Extra Tools and Skills by Pasa",
-        "name": "§bSkills BP",
-        "uuid": "a4fe7715-d13e-4e9c-b1cb-ce1131ec162d",
+        "name": "§bExtra Tools & Skills",
+        "uuid": "b451a2d8-712c-49c5-a301-ab4d84d25969",
         "version": [
 			6,
 			5,
@@ -47,7 +47,7 @@
 				5,
 				1
 			],
-			"uuid": "09819be9-1d84-45a8-9687-6c64b80a6ae4"
+			"uuid": "c3126acc-dc9a-44f6-83ee-0d8853b71af0"
 		},
         {
             "module_name": "@minecraft/server",
